@@ -1,0 +1,15 @@
+<!-- templates/result.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>gif time</title>
+</head>
+<body>
+   <h2>your gifs</h2>
+   {% for gif in gifs %}
+      <img src="{{ gif.images.fixed_height.url }}" alt="GIF">
+   {% endfor %}
+</body>
+</html>
