@@ -2,7 +2,6 @@ import requests
 from flask import Flask, render_template, request
 import giphy_client
 from giphy_client.rest import ApiException
-import pprint
 
 
 api_key = 'jxBRxbkEp4LLtLEOMsOpnI2VQGuDHkfV'
